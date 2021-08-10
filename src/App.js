@@ -35,7 +35,7 @@ function App() {
         </nav>
       </header>
       <main>
-        <div className="flex">
+        <div className="flex justify-center">
           <div>
             <img alt="" src={bgSecond} />
           </div>
@@ -157,13 +157,13 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center py-8">
+          {/* <div className="flex justify-center py-8">
             <button className="px-12 py-4 text-sm text-white font-semibold bg-primary border border-primary hover:shadow">همه ی میان وعده ها</button>
           </div>
           <h2 className="text-darkBlue font-bold text-3xl text-center py-10">
             محبوب ترین ها در چاشنی
-          </h2>
-          <div className="shadow-price-Box container mx-auto">
+          </h2> */}
+          {/* <div className="shadow-price-Box container mx-auto">
             <h2 className="text-darkBlue font-bold text-3xl text-center py-10">
               آیا میخواهید پیشنهاد تیم پزشکی ما را داشته باشید؟
 
@@ -184,11 +184,11 @@ function App() {
                   <p className="text-gray">Copyright©Arifur Rahman, 2019. All rights reserved</p>
                 </div>
                 <div className="relative h-auto w-2/3">
-                  <img alt="" className="absolute -bottom-60 -left-60" src={foooter} />
+                  <img alt="" className="absolute -bottom-60 -left-40 h-auto w-2/3" src={foooter} />
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>
